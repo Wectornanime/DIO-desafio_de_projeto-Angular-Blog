@@ -1,0 +1,44 @@
+.container__small-card {
+  border: 2px solid white;
+  width: 90%;
+
+  margin: 5px 0;
+  padding: 2px;
+  border-radius: 10px 10px 30px 10px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card_photo {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+
+  background-color: transparent;
+}
+
+.small-card_photo img {
+  width: 100px;
+  min-width: 100px;
+
+  border-radius: 6px 0 0 6px;
+}
+
+.small-card_text {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+
+  background-color: transparent;
+}
+
+.small-card_text > a {
+  text-decoration: none;
+
+  background-color: transparent;
+}
+
+.small-card_text p {
+  background-color: transparent;
+}

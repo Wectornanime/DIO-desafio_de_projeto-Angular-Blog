@@ -1,0 +1,17 @@
+.container__menu-title {
+  color: #fff;
+}
+
+.container__menu-title > h1 {
+  margin: 15px 0;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* font-family: 'Poppins', sans-serif; */
+  display: flex;
+  justify-content: center;
+}
+
+.container__menu-title > hr {
+  margin: 10px 5px;
+}

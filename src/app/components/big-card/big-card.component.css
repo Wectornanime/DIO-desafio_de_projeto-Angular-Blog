@@ -1,0 +1,25 @@
+.container__big-card {
+  width: 45vw;
+  height: 75vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.container__big-card a {
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.container__big-card p {
+  width: 90%;
+  margin: 0 auto;
+  color: gray;
+}
+
+.container__big-card img {
+  width: 80%;
+  min-width: 35vw;
+}
