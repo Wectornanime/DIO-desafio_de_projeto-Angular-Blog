@@ -1,0 +1,34 @@
+.container__content {
+  width: 100%;
+
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__cover > img {
+  width: 500px;
+  height: 300px;
+
+  border-radius: 5px;
+}
+
+.container__title > h1 {
+  text-transform: uppercase;
+}
+
+.container__description {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__description > a {
+  text-decoration: none;
+}
+
+.container__description p {
+  width: 80vw;
+}

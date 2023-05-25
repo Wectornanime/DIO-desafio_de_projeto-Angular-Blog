@@ -14,13 +14,21 @@
   width: 100px;
   height: 100px;
   margin-right: 20px;
+  position: relative;
 
   background-color: transparent;
 }
 
-.small-card_photo img {
+.small-card_photo span {
   width: 100px;
-  min-width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.small-card_photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 
   border-radius: 6px 0 0 6px;
 }

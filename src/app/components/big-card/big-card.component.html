@@ -1,13 +1,13 @@
 <div class="container__big-card">
   <div class="big-card_photo">
-    <img src="https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png" alt="" height="270px" width="480px">
+    <img [src]=(photoCover) alt="GTA" >
   </div>
 
   <div class="big-card_title">
-    <h1><a href="#">Lorem</a></h1>
+    <h1><a [routerLink]="['content', Id]"> {{ cardTitle }} </a></h1>
   </div>
 
   <div class="big-card_description">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nesciunt dolorem porro earum non velit libero ipsa dolores quibusdam sit architecto sapiente, blanditiis quasi molestias placeat asperiores consequatur laboriosam quo?</p>
+    <p> {{ cardDescription }} </p>
   </div>
 </div>

@@ -19,7 +19,12 @@
   color: gray;
 }
 
-.container__big-card img {
+.big-card_photo {
+  display: flex;
+  justify-content: center;
+}
+
+.big-card_photo img {
   width: 80%;
   min-width: 35vw;
 }
